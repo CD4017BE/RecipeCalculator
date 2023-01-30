@@ -1,0 +1,228 @@
+# Power Generation
+$FlowerPower:                        -18 FlowerPetals,                 -1 min BiomassBurner,        +30 MWmin
+$BiomassPower:                       -10 Biomass,                      -1 min BiomassBurner,        +30 MWmin
+$SolidBiofuelPower:                   -4 SolidBiofuel,                 -1 min BiomassBurner,        +30 MWmin
+$CoalPower:                          -15 Coal,                         -1 min CoalGenerator,        +75 MWmin
+$PetroleumCokePower:                 -25 PetroleumCoke,                -1 min CoalGenerator,        +75 MWmin
+$CompactedCoalPower:           -7.142857 CompactedCoal,                -1 min CoalGenerator,        +75 MWmin
+$FuelPower:                          -12 Fuel,                         -1 min FuelGenerator,       +150 MWmin
+$TurboFuelPower:                    -4.5 TurboFuel,                    -1 min FuelGenerator,       +150 MWmin
+$LiquidBiofuelPower:                 -12 LiquidBiofuel,                -1 min FuelGenerator,       +150 MWmin
+$HeavyOilResiduePower:             -22.5 HeavyOilResidue,              -1 min FuelGenerator,       +150 MWmin
+$OilPower:                       -28.125 Oil,                          -1 min FuelGenerator,       +150 MWmin
+$GeothermalNPower:                                                     -1 min GeothermalGenerator, +200 MWmin
+$UraniumPower:  +10 UraniumWaste,   -0.2 UraniumFuelRod,   -300 Water, -1 min NuclearPowerPlant,  +2500 MWmin
+$PlutoniumPower: +1 PlutoniumWaste, -0.1 PlutoniumFuelRod, -300 Water, -1 min NuclearPowerPlant,  +2500 MWmin
+
+# Ore Extraction
+$LimestoneN1:   +60 Limestone,   -1 min MinerMk1, -5 MWmin
+$IronOreN1:     +60 IronOre,     -1 min MinerMk1, -5 MWmin
+$CopperOreN1:   +60 CopperOre,   -1 min MinerMk1, -5 MWmin
+$CateriumOreN1: +60 CateriumOre, -1 min MinerMk1, -5 MWmin
+$CoalN1:        +60 Coal,        -1 min MinerMk1, -5 MWmin
+$RawQuartzN1:   +60 RawQuartz,   -1 min MinerMk1, -5 MWmin
+$SulfurN1:      +60 Sulfur,      -1 min MinerMk1, -5 MWmin
+$BauxiteN1:     +60 Bauxite,     -1 min MinerMk1, -5 MWmin
+$UraniumN1:     +60 Uranium,     -1 min MinerMk1, -5 MWmin
+
+# Liquid Extraction
+$WaterExtraction:   +120 Water,    -1 min WaterExtractor, -20 MWmin
+$OilExtraction:     +120 CrudeOil, -1 min OilExtractor,   -40 MWmin
+$WaterWellNormal:    +60 Water,    -1 min WellExtractor
+$OilWellNormal:      +60 CrudeOil, -1 min WellExtractor
+$NitrogenWellNormal: +60 Nitrogen, -1 min WellExtractor
+
+# Ingots
+$IronIngot:             +30 IronIngot,     -30 IronOre,                       -1 min Smelter,   -4 MWmin
+$IronAlloyIngot:        +50 IronIngot,     -20 IronOre,    -20 CopperOre,     -1 min Foundry,  -16 MWmin
+$PureIronIngot:         +65 IronIngot,     -35 IronOre,    -20 Water,         -1 min Refinery, -30 MWmin
+$CopperIngot:           +30 CopperIngot,   -30 CopperOre,                     -1 min Smelter,   -4 MWmin
+$CopperAlloyIngot:     +100 CopperIngot,   -50 CopperOre,  -25 IronOre,       -1 min Foundry,  -16 MWmin
+$PureCopperIngot:     +37.5 CopperIngot,   -15 CopperOre,  -10 Water,         -1 min Refinery, -30 MWmin
+$CateriumIngot:         +15 CateriumIngot, -45 CateriumOre,                   -1 min Smelter,   -4 MWmin
+$PureCateriumIngot:     +12 CateriumIngot, -24 CateriumOre, -24 Water,        -1 min Refinery, -30 MWmin
+$SteelIngot:            +45 SteelIngot,    -45 IronOre,    -45 Coal,          -1 min Foundry,  -16 MWmin
+$CokeSteelIngot:       +100 SteelIngot,    -75 IronOre,    -75 PetroleumCoke, -1 min Foundry,  -16 MWmin
+$CompactedSteelIngot: +37.5 SteelIngot,  -22.5 IronOre, -11.25 CompactedCoal, -1 min Foundry,  -16 MWmin
+$SolidSteelIngot:       +60 SteelIngot,    -40 IronIngot,  -40 Coal,          -1 min Foundry,  -16 MWmin
+$AluminumIngot:         +60 AluminumIngot, -90 AluminumScrap, -75 Silica,     -1 min Foundry,  -16 MWmin
+$PureAluminumIngot:     +30 AluminumIngot, -60 AluminumScrap,                 -1 min Smelter,   -4 MWmin
+
+# Minerals
+$Concrete:            +15 Concrete,        -45 Limestone,              -1 min Constructor, -4 MWmin
+$FineConcrete:        +25 Concrete,        -30 Limestone, -7.5 Silica, -1 min Assembler,  -15 MWmin
+$RubberConcrete:      +45 Concrete,        -50 Limestone,  -10 Rubber, -1 min Assembler,  -15 MWmin
+$WetConcrete:         +80 Concrete,       -120 Limestone, -100 Water,  -1 min Refinery,   -30 MWmin
+$QuartzCrystal:     +22.5 QuartzCrystal, -37.5 RawQuartz,              -1 min Constructor, -4 MWmin
+$PureQuartzCrystal: +52.5 QuartzCrystal, -67.5 RawQuartz, -37.5 Water, -1 min Refinery,   -30 MWmin
+$Silica:            +37.5 Silica,   -22.5 RawQuartz,                   -1 min Constructor, -4 MWmin
+$CheapSilica:      +26.25 Silica,  -11.25 RawQuartz, -18.75 Limestone, -1 min Assembler,  -15 MWmin
+$CopperPowder:        +50 CopperPowder, -300 CopperIngot,              -1 min Constructor, -4 MWmin
+$Fuel:             +40 Fuel,             +30 PolymerResin, -60 CrudeOil, -1 min Refinery,   -30 MWmin
+$HeavyOilResidue:  +40 HeavyOilResidue,  +20 PolymerResin, -30 CrudeOil, -1 min Refinery,   -30 MWmin
+$PolymerResin:     +20 HeavyOilResidue, +130 PolymerResin, -60 CrudeOil, -1 min Refinery,   -30 MWmin
+$PetroleumCoke:   +120 PetroleumCoke,    -40 HeavyOilResidue,          -1 min Refinery,   -30 MWmin
+$AluminumScrap:          +360 AluminumScrap, +120 Water, -240 AluminaSolution, -120 Coal,               -1 min Refinery, -30 MWmin
+$ElectrodeAluminumScrap: +300 AluminumScrap, +105 Water, -180 AluminaSolution,  -60 PetroleumCoke,      -1 min Refinery, -30 MWmin
+$InstantScrap:           +300 AluminumScrap,  -10 Water,  -50 SulfuricAcid, -100 Coal, -150 Bauxite, -1 min Blender,  -75 MWmin
+
+# Liquids
+$ResidualFuel:        +40 Fuel,         -60 HeavyOilResidue,                                              -1 min Refinery, -30 MWmin
+$DilutedFuel:        +100 Fuel,         -50 HeavyOilResidue, -100 Water,                                  -1 min Blender,  -75 MWmin
+$DilutedPackagedFuel: +60 PackagedFuel, -30 HeavyOilResidue, -60 PackagedWater,                           -1 min Refinery, -30 MWmin
+$TurboBlendFuel:      +45 TurboFuel,    -30 HeavyOilResidue, -15 Fuel, -22.5 PetroleumCoke, -22.5 Sulfur, -1 min Blender,  -75 MWmin
+$TurboHeavyFuel:      +30 TurboFuel,  -37.5 HeavyOilResidue,             -30 Coal,                        -1 min Refinery, -30 MWmin
+$TurboFuel:        +18.75 TurboFuel,  -22.5 Fuel,                        -15 Coal,                        -1 min Refinery, -30 MWmin
+$AluminaSolution:    +120 AluminaSolution, +50 Silica,      -180 Water, -120 Bauxite,                  -1 min Refinery, -30 MWmin
+$SloppyAlumina:      +240 AluminaSolution,                  -200 Water, -200 Bauxite,                  -1 min Refinery, -30 MWmin
+$SulfuricAcid:        +50 SulfuricAcid,                      -50 Water,  -50 Sulfur,                      -1 min Refinery, -30 MWmin
+$NitricAcid:          +30 NitricAcid,  -120 Nitrogen,        -30 Water,  -10 IronPlate,                   -1 min Blender,  -75 MWmin
+$LiquidBiofuel:       +60 LiquidBiofuel,                     -45 Water,  -90 SolidBiofuel,                -1 min Refinery, -30 MWmin
+
+# Standard Parts
+$IronRod:              +15 IronRod,                -15 IronIngot,                      -1 min Constructor, -4 MWmin
+$SteelRod:             +48 IronRod,                -12 SteelIngot,                     -1 min Constructor, -4 MWmin
+$Screw:                +40 Screw,                  -10 IronRod,                        -1 min Constructor, -4 MWmin
+$CastScrew:            +50 Screw,                -12.5 IronIngot,                      -1 min Constructor, -4 MWmin
+$SteelScrew:          +260 Screw,                   -5 SteelBeam,                      -1 min Constructor, -4 MWmin
+$IronPlate:            +20 IronPlate,              -30 IronIngot,                      -1 min Constructor, -4 MWmin
+$CoatedIronPlate:      +75 IronPlate,              -50 IronIngot,     -10 Plastic,     -1 min Assembler,  -15 MWmin
+$SteelCoatedPlate:     +45 IronPlate,             -7.5 SteelIngot,     -5 Plastic,     -1 min Assembler,  -15 MWmin
+$ReinforcedIronPlate:   +5 ReinforcedIronPlate,    -30 IronPlate,     -60 Screw,       -1 min Assembler,  -15 MWmin
+$BoltedIronPlate:      +15 ReinforcedIronPlate,    -90 IronPlate,    -250 Screw,       -1 min Assembler,  -15 MWmin
+$AdheredIronPlate:   +3.75 ReinforcedIronPlate, -11.25 IronPlate,   -3.75 Rubber,      -1 min Assembler,  -15 MWmin
+$StitchedIronPlate: +5.625 ReinforcedIronPlate, -18.75 IronPlate,   -37.5 Wire,        -1 min Assembler,  -15 MWmin
+$CopperSheet:          +10 CopperSheet,            -20 CopperIngot,                    -1 min Constructor, -4 MWmin
+$SteamedCopperSheet: +22.5 CopperSheet,          -22.5 CopperIngot, -22.5 Water,       -1 min Refinery,   -30 MWmin
+$AlcladAluminumSheet:  +30 AlcladAluminumSheet,    -30 AluminumIngot, -10 CopperIngot, -1 min Assembler,  -15 MWmin
+$AluminumCasing:       +60 AluminumCasing,         -90 AluminumIngot,                  -1 min Constructor, -4 MWmin
+$AlcladCasing:      +112.5 AluminumCasing,        -150 AluminumIngot, -75 CopperIngot, -1 min Assembler,  -15 MWmin
+$SteelPipe:            +20 SteelPipe,              -30 SteelIngot,                     -1 min Constructor, -4 MWmin
+$SteelBeam:            +15 SteelBeam,              -60 SteelIngot,                     -1 min Constructor, -4 MWmin
+$EncasedIndustrialBeam: +6 EncasedIndustrialBeam,  -24 SteelBeam,     -30 Concrete,    -1 min Assembler,  -15 MWmin
+$EncasedIndustrialPipe: +4 EncasedIndustrialBeam,  -28 SteelPipe,     -20 Concrete,    -1 min Assembler,  -15 MWmin
+$ModularFrame:          +2 ModularFrame,     -3 ReinforcedIronPlate,  -12 IronRod,     -1 min Assembler,  -15 MWmin
+$BoltedFrame:           +5 ModularFrame,   -7.5 ReinforcedIronPlate, -140 Screw,       -1 min Assembler,  -15 MWmin
+$SteeledFrame:          +3 ModularFrame,     -2 ReinforcedIronPlate,  -10 SteelPipe,   -1 min Assembler,  -15 MWmin
+$HeavyModularFrame:     +2 HeavyModularFrame,    -10 ModularFrame,    -10 EncasedIndustrialBeam,    -30 SteelPipe,    -200 Screw,      -1 min Manufacturer, -55 MWmin
+$HeavyFlexibleFrame: +3.75 HeavyModularFrame, -18.75 ModularFrame, -11.25 EncasedIndustrialBeam,    -75 Rubber,       -390 Screw,      -1 min Manufacturer, -55 MWmin
+$HeavyEncasedFrame:+2.8125 HeavyModularFrame,   -7.5 ModularFrame, -9.375 EncasedIndustrialBeam, -33.75 SteelPipe, -20.625 Concrete,   -1 min Manufacturer, -55 MWmin
+$FusedModularFrame:   +1.5 FusedModularFrame, -1.5 HeavyModularFrame, -75 AluminumCasing,         -37.5 Nitrogen,                      -1 min Blender,      -75 MWmin
+$HeatFusedFrame:        +3 FusedModularFrame,  -3 HeavyModularFrame, -150 AluminumIngot,            -30 Fuel,          -24 NitricAcid, -1 min Blender,      -75 MWmin
+$PressureConversionCube:+1 PressureConversionCube,                     -1 FusedModularFrame,         -2 RadioControlUnit,              -1 min Assembler,    -15 MWmin
+$Plastic:              +20 Plastic, +10 HeavyOilResidue, -30 CrudeOil,  -1 min Refinery,  -30 MWmin
+$ResidualPlastic:      +20 Plastic, -60 PolymerResin,    -20 Water,   -1 min Refinery,  -30 MWmin
+$RecycledPlastic:      +60 Plastic, -30 Fuel,            -30 Rubber,  -1 min Refinery,  -30 MWmin
+$Rubber:               +20 Rubber,  +20 HeavyOilResidue, -30 CrudeOil,  -1 min Refinery,  -30 MWmin
+$ResidualRubber:       +20 Rubber,  -40 PolymerResin,    -40 Water,   -1 min Refinery,  -30 MWmin
+$RecycledRubber:       +60 Rubber,  -30 Fuel,            -30 Plastic, -1 min Refinery,  -30 MWmin
+$Fabric:               +15 Fabric,  -15 Mycelia,         -75 Biomass, -1 min Assembler, -15 MWmin
+$PolyesterFabric:      +30 Fabric,  -30 PolymerResin,    -30 Water,   -1 min Refinery,  -30 MWmin
+
+# Industrial Parts
+$Rotor:                   +4 Rotor,            -20 IronRod,     -100 Screw,  -1 min Assembler, -15 MWmin
+$CopperRotor:         +11.25 Rotor,          -22.5 CopperSheet, -195 Screw,  -1 min Assembler, -15 MWmin
+$SteelRotor:              +5 Rotor,            -10 SteelPipe, -30 Wire,      -1 min Assembler, -15 MWmin
+$Stator:                  +5 Stator,           -15 SteelPipe, -40 Wire,      -1 min Assembler, -15 MWmin
+$QuickwireStator:         +8 Stator,           -16 SteelPipe, -60 Quickwire, -1 min Assembler, -15 MWmin
+$Battery:                +20 Battery,          +30 Water,     -20 AluminumCasing,      -40 AluminaSolution,    -50 SulfuricAcid,              -1 min Blender,      -75 MWmin
+$ClassicBattery:         +30 Battery,          -45 Sulfur,  -52.5 AlcladAluminumSheet, -60 Plastic,            -90 Wire,                      -1 min Manufacturer, -55 MWmin
+$Motor:                   +5 Motor,            -10 Rotor,     -10 Stator,                                                                     -1 min Assembler,    -15 MWmin
+$ElectricMotor:         +7.5 Motor,           -7.5 Rotor,   -3.75 ElectromagneticControlRod,                                                  -1 min Assembler,    -15 MWmin
+$RigourMotor:           +7.5 Motor,          -3.75 Rotor,   -3.75 Stator,        -1.25 CrystalOscillator,                                     -1 min Manufacturer, -55 MWmin
+$HeatSink:              +7.5 HeatSink,       -37.5 AlcladAluminumSheet,          -22.5 CopperSheet,                                           -1 min Assembler,    -15 MWmin
+$HeatExchanger:          +10 HeatSink,         -30 AluminumCasing,                 -30 Rubber,                                                -1 min Assembler,    -15 MWmin
+$CoolingSystem:           +6 CoolingSystem,    -12 HeatSink, -150 Nitrogen,        -12 Rubber,                 -30 Water,                     -1 min Blender,      -75 MWmin
+$CoolingDevice:        +3.75 CoolingSystem, -9.375 HeatSink,  -45 Nitrogen,     -1.875 Motor,                                                 -1 min Blender,      -75 MWmin
+$TurboMotor:          +1.875 TurboMotor,      -7.5 Motor,    -7.5 CoolingSystem, -3.75 RadioControlUnit,       -45 Rubber,                    -1 min Manufacturer, -55 MWmin
+$TurboElectricMotor: +2.8125 TurboMotor,   -6.5625 Motor, -6.5625 Rotor,       -8.4375 RadioControlUnit,   -4.6875 ElectromagneticControlRod, -1 min Manufacturer, -55 MWmin
+$TurboPressureMotor:   +3.75 TurboMotor,      -7.5 Motor,     -15 Stator,       -1.875 PressureConversionCube, -45 BottledNitrogen,           -1 min Manufacturer, -55 MWmin
+
+# Electronics
+$Wire:                   +30 Wire,           -15 CopperIngot,                      -1 min Constructor, -4 MWmin
+$CateriumWire:          +120 Wire,           -15 CateriumIngot,                    -1 min Constructor, -4 MWmin
+$IronWire:             +22.5 Wire,         -12.5 IronIngot,                        -1 min Constructor, -4 MWmin
+$FusedWire:              +90 Wire,           -12 CopperIngot,  -3 CateriumIngot,   -1 min Assembler,  -15 MWmin
+$Cable:                  +30 Cable,          -60 Wire,                             -1 min Constructor, -4 MWmin
+$InsulatedCable:        +100 Cable,          -45 Wire,        -30 Rubber,          -1 min Assembler   -15 MWmin
+$QuickwireCable:       +27.5 Cable,         -7.5 Quickwire,    -5 Rubber,          -1 min Assembler,  -15 MWmin
+$CoatedCable:          +67.5 Cable,        -37.5 Wire,        -15 HeavyOilResidue, -1 min Refinery,   -30 MWmin
+$Quickwire:              +60 Quickwire,      -12 CateriumIngot,                    -1 min Constructor, -4 MWmin
+$FusedQuickwire:         +90 Quickwire,     -7.5 CateriumIngot, -37.5 CopperIngot, -1 min Assembler,  -15 MWmin
+$CircuitBoard:          +7.5 CircuitBoard,   -15 CopperSheet,   -30 Plastic,       -1 min Assembler,  -15 MWmin
+$SiliconeCircuitBoard: +12.5 CircuitBoard, -27.5 CopperSheet, -27.5 Silica,        -1 min Assembler,  -15 MWmin
+$CateriumCircuitBoard: +8.75 CircuitBoard, -37.5 Quickwire,   -12.5 Plastic,       -1 min Assembler,  -15 MWmin
+$ElectrodeCircuitBoard:   +5 CircuitBoard,   -30 Rubber,        -45 PetroleumCoke, -1 min Assembler,  -15 MWmin
+$AILimiter:               +5 AILimiter,      -25 CopperSheet,  -100 Quickwire,     -1 min Assembler,  -15 MWmin
+$HighSpeedConnector:   +3.75 HighSpeedConnector, -3.75 CircuitBoard, -210 Quickwire, -37.5 Cable,                               -1 min Manufacturer, -55 MWmin
+$SiliconSpeedConnector:   +3 HighSpeedConnector,    -3 CircuitBoard,  -90 Quickwire, -37.5 Silica,                              -1 min Manufacturer, -55 MWmin
+$Computer:              +2.5 Computer,        -25 CircuitBoard,     -22.5 Cable,       -45 Plastic, -130 Screw,                 -1 min Manufacturer, -55 MWmin
+$CateriumComputer:     +3.75 Computer,     -26.25 CircuitBoard,      -105 Quickwire,   -45 Rubber,                              -1 min Manufacturer, -55 MWmin
+$CrystalComputer:    +2.8125 Computer,       -7.5 CircuitBoard, -2.8125 CrystalOscillator,                                      -1 min Assembler,    -15 MWmin
+$Supercomputer:       +1.875 Supercomputer, -3.75 Computer,     -5.625 HighSpeedConnector,      -3.75 AILimiter, -52.5 Plastic, -1 min Manufacturer, -55 MWmin
+$SuperStateComputer:    +2.4 Supercomputer,  -3.6 Computer,       -2.4 ElectromagneticControlRod, -24 Battery,     -54 Wire,    -1 min Manufacturer, -55 MWmin
+$OCSupercomputer:         +3 Supercomputer,    -9 RadioControlUnit, -9 CoolingSystem,                                           -1 min Assembler,    -15 MWmin
+$RadioControlUnit:      +2.5 RadioControlUnit, -1.25 Computer,         -1.25 CrystalOscillator, -40 AluminumCasing,             -1 min Manufacturer, -55 MWmin
+$RadioControlSystem:    +4.5 RadioControlUnit,   -15 CircuitBoard,      -1.5 CrystalOscillator, -90 AluminumCasing, -45 Rubber, -1 min Manufacturer, -55 MWmin
+$RadioConnectionUnit:  +3.75 RadioControlUnit,  -7.5 HighSpeedConnector, -45 QuartzCrystal,     -15 HeatSink,                   -1 min Manufacturer, -55 MWmin
+$CrystalOscillator:              +1 CrystalOscillator,    -18 QuartzCrystal,     -14 Cable,    -2.5 ReinforcedIronPlate,        -1 min Manufacturer, -55 MWmin
+$InsulatedCrystalOscillator: +1.875 CrystalOscillator, -18.75 QuartzCrystal, -13.125 Rubber, -1.875 AILimiter,                  -1 min Manufacturer, -55 MWmin
+
+# Fuels
+$Biomass_Leaves:    +60 Biomass, -120 Leaves,  -1 min Constructor, -4 MWmin
+$Biomass_Wood:     +300 Biomass,  -60 Wood,    -1 min Constructor, -4 MWmin
+$Biomass_Mycelia:  +150 Biomass,  -15 Mycelia, -1 min Constructor, -4 MWmin
+$Biomass_Protein: +1500 Biomass,  -15 Protein, -1 min Constructor, -4 MWmin
+$SolidBiofuel: +60 SolidBiofuel, -120 Biomass, -1 min Constructor, -4 MWmin
+$Charcoal:         +150 Coal,     -15 Wood,    -1 min Constructor, -4 MWmin
+$Biocoal:           +45 Coal,   -37.5 Biomass, -1 min Constructor, -4 MWmin
+$CompactedCoal: +25 CompactedCoal, -25 Coal, -25 Sulfur, -1 min Assembler, -15 MWmin
+
+# Nuclear
+$ElectromagneticControlRod:    +4 ElectromagneticControlRod, -6 Stator, -4 AILimiter,                                         -1 min Assembler,    -15 MWmin
+$ElectromagneticConnectionRod: +8 ElectromagneticControlRod, -8 Stator, -4 HighSpeedConnector,                                -1 min Assembler,    -15 MWmin
+$EncasedUraniumCell: +25 EncasedUraniumCell, -50 UraniumOre, -15 Concrete,  -30 SulfuricAcid,                                 -1 min Blender,      -75 MWmin
+$InfusedUraniumCell: +20 EncasedUraniumCell, -25 UraniumOre, -15 Silica,    -25 Sulfur,       -75 Quickwire,                  -1 min Manufacturer, -55 MWmin
+$NonFissileUranium:  +50 NonFissileUranium,  +15 Water, -37.5 UraniumWaste, -15 SulfuricAcid, -15 NitricAcid, -25 Silica,     -1 min Blender,      -75 MWmin
+$FertileUranium:    +100 NonFissileUranium,  +40 Water,   -25 UraniumWaste, -25 SulfuricAcid, -15 NitricAcid, -25 UraniumOre, -1 min Blender,      -75 MWmin
+$PlutoniumPellets:     +30 PlutoniumPellets,    -100 NonFissileUranium, -25 UraniumWaste,                             -1 min ParticleAccelerator, -500 MWmin
+$EncasedPlutoniumCell:  +5 EncasedPlutoniumCell, -10 PlutoniumPellets,  -20 Concrete,                                 -1 min Assembler,            -15 MWmin
+$InstantPlutoniumCell: +10 EncasedPlutoniumCell, -75 NonFissileUranium, -10 AluminumCasing,                           -1 min ParticleAccelerator, -500 MWmin
+$UraniumFuelRod:    +0.4 UraniumFuelRod,    -20 EncasedUraniumCell,     -2 ElectromagneticControlRod, -1.2 EncasedIndustrialBeam,             -1 min Manufacturer, -55 MWmin
+$UraniumFuelUnit:   +0.6 UraniumFuelRod,    -20 EncasedUraniumCell,     -2 ElectromagneticControlRod, -0.6 CrystalOscillator,  -1.2 Beacon,   -1 min Manufacturer, -55 MWmin
+$PlutoniumFuelRod: +0.25 PlutoniumFuelRod, -7.5 EncasedPlutoniumCell, -1.5 ElectromagneticControlRod, -4.5 SteelBeam,          -2.5 HeatSink, -1 min Manufacturer, -55 MWmin
+$PlutoniumFuelUnit: +0.5 PlutoniumFuelRod,  -10 EncasedPlutoniumCell, -0.5 PressureConversionCube,                                            -1 min Assembler,    -15 MWmin
+
+# Project Parts
+$SmartPlating:           +2 SmartPlating,       -2 Rotor,    -2 ReinforcedIronPlate,               -1 min Assembler,    -15 MWmin
+$PlasticSmartPlating:    +5 SmartPlating,     -2.5 Rotor,  -2.5 ReinforcedIronPlate, -7.5 Plastic, -1 min Manufacturer, -55 MWmin
+$AutomatedWiring:      +2.5 AutomatedWiring,  -2.5 Stator,                            -50 Cable,   -1 min Assembler,    -15 MWmin
+$AutomatedSpeedWiring: +7.5 AutomatedWiring, -3.75 Stator, -1.875 HighSpeedConnector, -75 Wire,    -1 min Manufacturer, -55 MWmin
+$VersatileFramework:     +5 VersatileFramework,  -2.5 ModularFrame,   -30 SteelBeam,               -1 min Assembler,    -15 MWmin
+$FlexibleFramework:    +7.5 VersatileFramework, -3.75 ModularFrame, -22.5 SteelBeam,  -30 Rubber,  -1 min Manufacturer, -55 MWmin
+$ModularEngine:          +1 ModularEngine,      -2 SmartPlating,       -2 Motor,      -15 Rubber,  -1 min Manufacturer, -55 MWmin
+$AdaptiveControlUnit:       +1 AdaptiveControlUnit,     -7.5 AutomatedWiring,   -1 HeavyModularFrame, -5 CircuitBoard, -1 Computer, -1 min Manufacturer, -55 MWmin
+$AssemblyDirectorSystem: +0.75 AssemblyDirectorSystem,  -1.5 AdaptiveControlUnit, -0.75 Supercomputer,                              -1 min Assembler,    -15 MWmin
+$MagneticFieldGenerator:    +1 MagneticFieldGenerator,  -2.5 VersatileFramework, -1 ElectromagneticControlRod, -5 Battery,          -1 min Manufacturer, -55 MWmin
+$ThermalPropulsionRocket:   +1 ThermalPropulsionRocket, -2.5 ModularEngine, -1 FusedModularFrame, -3 CoolingSystem, -1 TurboMotor,  -1 min Manufacturer, -55 MWmin
+$NuclearPasta:         +0.5 NuclearPasta, -0.5 PressureConversionCube, -100 CopperPowder,          -1 min ParticleAccelerator, -1000 MWmin
+
+# Packaging
+$PackageFuel:              +40 PackagedFuel,             -40 Fuel,             -40 EmptyCanister, -1 min Packager, -10 MWmin
+$UnpackageFuel:            -60 PackagedFuel,             +60 Fuel,             +60 EmptyCanister, -1 min Packager, -10 MWmin
+$PackageLiquidBiofuel:     +40 PackagedLiquidBiofuel,    -40 LiquidBiofuel,    -40 EmptyCanister, -1 min Packager, -10 MWmin
+$UnpackageLiquidBiofuel:   -60 PackagedLiquidBiofuel,    +60 LiquidBiofuel,    +60 EmptyCanister, -1 min Packager, -10 MWmin
+$PackageOil:               +30 PackagedOil,              -30 CrudeOil,         -30 EmptyCanister, -1 min Packager, -10 MWmin
+$UnpackageOil:             -60 PackagedOil,              +60 CrudeOil,         +60 EmptyCanister, -1 min Packager, -10 MWmin
+$PackageHeavyOilResidue:   +30 PackagedHeavyOilResidue,  -30 HeavyOilResidue,  -30 EmptyCanister, -1 min Packager, -10 MWmin
+$UnpackageHeavyOilResidue: -20 PackagedHeavyOilResidue,  +20 HeavyOilResidue,  +20 EmptyCanister, -1 min Packager, -10 MWmin
+$PackageWater:             +60 PackagedWater,            -60 Water,            -60 EmptyCanister, -1 min Packager, -10 MWmin
+$UnpackageWater:          -120 PackagedWater,           +120 Water,           +120 EmptyCanister, -1 min Packager, -10 MWmin
+$PackageAluminaSolution:  +120 PackagedAluminaSolution, -120 AluminaSolution, -120 EmptyCanister, -1 min Packager, -10 MWmin
+$UnpackageAluminaSolution:-120 PackagedAluminaSolution, +120 AluminaSolution, +120 EmptyCanister, -1 min Packager, -10 MWmin
+$PackageTurbofuel:         +20 PackagedTurbofuel,        -20 Turbofuel,        -20 EmptyCanister, -1 min Packager, -10 MWmin
+$UnpackageTurbofuel:       -20 PackagedTurbofuel,        +20 Turbofuel,        +20 EmptyCanister, -1 min Packager, -10 MWmin
+$PackageSulfuricAcid:      +40 PackagedSulfuricAcid,     -40 SulfuricAcid,     -40 EmptyCanister, -1 min Packager, -10 MWmin
+$UnpackageSulfuricAcid:    -60 PackagedSulfuricAcid,     +60 SulfuricAcid,     +60 EmptyCanister, -1 min Packager, -10 MWmin
+$PackageNitricAcid:        +30 PackagedNitricAcid,       -30 NitricAcid,       -30 EmptyCanister, -1 min Packager, -10 MWmin
+$UnpackageNitricAcid:      -20 PackagedNitricAcid,       +20 NitricAcid,       +20 EmptyCanister, -1 min Packager, -10 MWmin
